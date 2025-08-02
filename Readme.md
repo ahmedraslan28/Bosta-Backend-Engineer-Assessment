@@ -119,22 +119,26 @@ Since we frequently search for books by title, ISBN, and author, it's important 
 ### Running Locally
 
 ### Prerequisites
-- **Node.js** 
+
+- **Node.js**
 - **MySQL** (running and accessible)
 - **Redis** (running and accessible)
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/ahmedraslan28/Bosta-Backend-Engineer-Assessment.git
    cd Bosta-Backend-Engineer-Assessment
    ```
 
 2. Install dependencies:
+
    ```sh
    npm install
    ```
 
-3. Configure environment variables (.env file): 
+3. Configure environment variables (.env file):
+
 ```sh
 PORT= your port
 DB_NAME=you db name
@@ -147,24 +151,25 @@ REDIS_HOST=localhost
 REDIS_PORT=your redis port
 ```
 
-4. create database 
-  ```sh
+4. create database
+
+```sh
 Make sure your MySQL server is running and the database exists.
 ```
 
-5. start the server 
-  ```sh
+5. start the server
+
+```sh
 npm run dev
 ```
 
 6. access the app
-  * app will be on: http://localhost:{your port}
 
-
+- app will be on: http://localhost:{your port}
 
 ### Running Using Docker
+
 1. Docker should be installed on your machine:
-   
 2. Clone the repository:
    ```sh
    git clone https://github.com/ahmedraslan28/Bosta-Backend-Engineer-Assessment.git
@@ -175,16 +180,16 @@ npm run dev
    docker-compose up --build
    ```
 4. access the app
-  * app will be on: http://localhost:3000
+
+- app will be on: http://localhost:3000
 
 > **Note:**  
-> make sure those ports are free [3308,6379,3000] or change them at docker compose before run the containers 
-  
-
+> make sure those ports are free [3308,6379,3000] or change them at docker compose before run the containers
 
 ## How to Run Tests
 
 1. Make sure you have installed all dependencies:
+
    ```sh
    npm install
    ```
@@ -193,6 +198,13 @@ npm run dev
    ```sh
    npm test
    ```
-> **Note:**  
-> Tests can only be run locally (not inside Docker containers).
+   > **Note:**  
+   > Tests can only be run locally (not inside Docker containers).
 
+## For Testers
+
+When you running the app you can use the following user to authenticate:
+
+| Email             | Password  |
+| ----------------- | --------- |
+| admin@example.com | secret123 |

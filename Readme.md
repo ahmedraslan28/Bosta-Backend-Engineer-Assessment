@@ -211,4 +211,8 @@ When you running the app you can use the following user to authenticate:
 | ----------------- | --------- |
 | admin@example.com | secret123 |
 
- 
+> **Note:**  
+
+> Authentication is implemented only for librarians, who are responsible for administering the system.
+
+> Borrowers do not authenticate themselves; instead, their accounts and activities are fully managed by the librarian..

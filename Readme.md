@@ -144,7 +144,7 @@ DB_HOST=localhost
 DB_PORT=your db port
 
 REDIS_HOST=localhost
-REDIS_PORT=6379
+REDIS_PORT=your redis port
 ```
 
 4. create database 

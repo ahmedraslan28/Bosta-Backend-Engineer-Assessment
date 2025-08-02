@@ -182,7 +182,7 @@ npm run dev
   
 
 
-### How to Run Tests
+## How to Run Tests
 
 1. Make sure you have installed all dependencies:
    ```sh

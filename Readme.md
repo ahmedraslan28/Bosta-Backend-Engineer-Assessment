@@ -53,8 +53,8 @@ Full API documentation is available and published via Postman:
 
 > **Note:**  
 > A default librarian (admin) account is created and seeded automatically for testing purposes.  
-> **Email:** `admin@library.com`  
-> **Password:** `admin123`  
+> **Email:** `admin@example.com`  
+> **Password:** `secret123`  
 > You can use these credentials to access secured endpoints right away.
 
 ## Database Documentation

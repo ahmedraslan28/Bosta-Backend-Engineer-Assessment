@@ -10,6 +10,14 @@ const sequelize = new Sequelize(
     port: process.env.DB_PORT,
     dialect: 'mysql',
     logging: false,
+    retry: {
+      max: 3,         
+      match: [       
+        Sequelize.ConnectionError,
+        Sequelize.ConnectionTimedOutError,
+        Sequelize.TimeoutError,
+      ],
+    },
   }
 );
 

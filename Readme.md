@@ -19,10 +19,10 @@ Borrowers do not authenticate themselves; instead, their accounts and activities
 
 - Reports
   - Generate reports on library activities, such as :
-    - borrows that happen in a period of time
-    - Overdue borrows for last month.
-    - All borrows that happen last month
-  - Export reports in CSV format
+    - borrows records within a specific time period
+    - Overdue borrows from the previous month
+    - All borrow transactions from the previous month
+  - Reports are exported in CSV format and saved automatically in the **`exports/`** folder at the root directory upon calling the respective API endpoints.
 - pagination
   - Paginated results for books, borrowers and borrows
 - Rate Limiting

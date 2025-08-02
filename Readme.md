@@ -49,7 +49,6 @@ Full API documentation is available and published via Postman:
 [View Library API Docs on Postman](https://documenter.getpostman.com/view/24318609/2sB3BAMCrZ)
 
 - Includes detailed endpoint descriptions, request/response examples, status codes, and error messages.
-- Covers all scenarios for books, borrowers, borrows, reports, authentication.
 
 > **Note:**  
 > A default librarian (admin) account is created and seeded automatically for testing purposes.  

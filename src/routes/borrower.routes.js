@@ -28,8 +28,8 @@ router.post(
       .isEmail().withMessage('Must be a valid email'),
   ],
   validate,
+  auth,
   registerBorrower,
-  auth
 );
 
 // list all borrowers 

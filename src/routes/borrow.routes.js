@@ -26,8 +26,8 @@ router.patch(
   '/:borrowId',
   [ param('borrowId').isInt().withMessage('Invalid borrow ID') ],
   validate,
-  handleReturnBook,
-  authMiddleware
+  authMiddleware,
+  handleReturnBook
 );
 
 router.get(

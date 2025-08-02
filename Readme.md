@@ -1,4 +1,7 @@
 # Library API
+This Library Management System allows librarians to manage books, borrowers, and borrowing activities and generate reports. Authentication is implemented only for librarians, who are responsible for administering the system.
+
+Borrowers do not authenticate themselves; instead, their accounts and activities are fully managed by the librarian.
 
 ## Features
 
@@ -207,3 +210,5 @@ When you running the app you can use the following user to authenticate:
 | Email             | Password  |
 | ----------------- | --------- |
 | admin@example.com | secret123 |
+
+ 
